@@ -6,6 +6,8 @@ class GetMinInList(object):
         type nums: List[int]
         return type: int
         Idea : Sort -> Get the first number + length check
+        Common:
+        (Update 151003-0944)accepted if duplicated include
         """
         nums.sort()
         if len(nums)>0:
